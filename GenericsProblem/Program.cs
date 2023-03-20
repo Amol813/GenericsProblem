@@ -19,6 +19,10 @@ namespace GenericsProblem
             integerMaximum.FindFloatNum(2.5f, 15.5f, 30.5f);
 
 
+            Console.WriteLine("Case 3(string):");
+            integerMaximum.FindMaxString("10", "20", "30");
+
+
 
             Console.ReadLine();
         }
