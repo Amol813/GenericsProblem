@@ -10,15 +10,33 @@ namespace GenericsProblem
             {
                 Console.WriteLine("a is max");
             }
-             if (b >= a && b >= c)
-             {
+            if (b >= a && b >= c)
+            {
                 Console.WriteLine("b is max");
-             }
-           else 
-           {
+            }
+            else
+            {
                 Console.WriteLine("c is max");
-           }
-            
+            }
+
         }
-    }
+
+        public void FindFloatNum(float a, float b, float c)
+        {
+            if (a > b && a > c)
+            {
+                Console.WriteLine("a is max");
+            }
+            if (b > a && b > c)
+            {
+                Console.WriteLine("b is max");
+            }
+            else
+            {
+                Console.WriteLine("c is max");
+            }
+
+        }
+        
+    }   
 }

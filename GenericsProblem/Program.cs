@@ -15,12 +15,10 @@ namespace GenericsProblem
             integerMaximum.FindIntNum(50, 15, 9);
 
 
-            Console.WriteLine(" Case 2:");
-            integerMaximum.FindIntNum(15, 50, 9);
+            Console.WriteLine("Case 2(float):");
+            integerMaximum.FindFloatNum(2.5f, 15.5f, 30.5f);
 
 
-            Console.WriteLine(" Case 3:");
-            integerMaximum.FindIntNum(15, 9, 50);
 
             Console.ReadLine();
         }
